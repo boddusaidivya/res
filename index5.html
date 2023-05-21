@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet"href="registration.css">
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: whitesmoke;
+        margin-top: 100px;
+        background: url(regis.jpeg); 
+ background-size: cover; 
+ text-align: center;
+ background-image: linear-gradient(250deg, aqua, rgb(172, 8, 153));
+    
+      }
+          h1,p{
+            text-align: center;
+          }
+      form {
+        padding: 10px;
+        height: 1700px;
+        margin:right 200px;
+        border-radius: 6px;
+        background-color:lightcoral;
+        margin-top: 50px;
+        width:500px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+      }
+      ::placeholder{
+        font-weight: bold;
+        margin: 2px;
+        padding:6px;
+        flex-direction: column;
+      }
+      
+      h1, p {
+        text-align: center;
+      }
+      
+      /* desired spacing for input fields */
+      input {
+        margin: 0.25em 0em 1em 0em;
+      }
+              /* more styles added to beautify the input fields */
+      input {
+        margin: 0.25em 0em 1em 0em;
+        outline: none;
+        padding: 0.5em;
+        border: none;
+        background-color: rgb(225, 225, 225);
+        border-radius: 0.25em;
+        color: black;
+      }
+              /* styles for button */
+      button {
+        padding: 0.75em;
+        border: none;
+        outline: none;
+        background-color: rgb(68, 18, 232);
+        color: white;
+        border-radius: 0.25em;
+      }
+      submit{
+        padding: 10px;
+        padding-top: 8px;
+      }
+      reset{
+        padding: 10px;
+        padding-top: 8px;
+      }
+      
+      /* hover functionality for button */
+      button:hover {
+        cursor: pointer;
+        background-color:aqua
+      }
+
+    
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+          <center>
+                <h2 style="color: white;">REGISTRATION FORM</h2>
+                <div class="k">
+                <Input type="text" id="name" class name="name" placeholder="First Name">
+                <Input type="text" id="name" class name="name"placeholder="Last Name"><br><br>
+                </div> 
+                  <label for="date of joining">date of joining:</label> <br></br>
+                  <input type="date" id="date of joining" name="date og joining"> <br></br>
+                <form>
+                    <label for="birthdaytime">Birthday (date and time):</label> 
+                    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br></br>
+                 </form>
+                 <label for="languages">languages:</label><br></br>
+                    <input type="checkbox" id="subject1" name=" subject1" value="Tamil"> 
+                    <label for=" subject1"> I know Tamil </label><br> 
+                    <input type="checkbox" id=" subject2" name=" subject2" value="Telugu"> 
+                    <label for=" subject2"> I know Telugu</label><br> 
+                    <input type="checkbox" id=" subject3" name=" subject3" value="English "> 
+                    <label for=" subject3"> I know Telugu</label><br></br>
+                <Input type="text" id="name" placeholder="Username"><br><br>
+      
+                <Input type="email" id="email" placeholder="Email"><br><br>
+                  <label for="vol">height (between 1 and 8):</label> 
+                   <input type="range" id="vol" name="vol" min="1" max="8"> <br></br>
+                   <label for="favcolor">Select your favoritecolor:</label> 
+ <input type="color" id="favcolor" name="favcolor"><br></br>
+                   <label>Gender:</label>
+        <input  type="radio" id="M" name="gender" value="M">Male
+        <input  type="radio" id="F" name="gender" value="F">Female
+         <input type="radio" id="OTHERS" name="gender" value="OTHERS">Others
+        <br></br>
+        <label for="github">github url:</label> 
+ <input type="url" id="github" name="github url"placeholder="past the link"><br></br>
+ <label for="myfile">resume:</label> 
+ <input type="file" id="myfile" name="myfile"> <br></br>
+                <Input type="tel" id="tel.number" placeholder="Tel.Number"><br><br>
+                  <label for="gsearch">Search Google:</label> 
+ <input type="search" id="gsearch" name="gsearch" placeholder="search"><br></br>
+                <Input type="password" id="password" placeholder="Password"><br><br>
+                <Input type="password" id="confirm password" placeholder="Confirm password"><br><br>
+                  <label>About:</label>
+                   <input type="text" name="about" id="about"placeholder="about"><br></br>
+                <div><button type="OK">OK</button></div> 
+                  <input type="submit" value="Submit"> 
+                  <input type="reset"> 
+                
+
+
+            </center>
+            
+        </div>
+    </form>
+</body>
+</html>
+    
+</body>
+</html>
